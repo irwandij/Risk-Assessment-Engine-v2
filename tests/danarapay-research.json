@@ -1,0 +1,110 @@
+{
+  "merchant_info": {
+    "name": "DANARAPAY",
+    "website": null,
+    "business_type": "Payment Services (claimed)",
+    "legal_entity_name": null,
+    "registration_number": null,
+    "address": null,
+    "processes_payments_for_others": true,
+    "claimed_bi_license": false,
+    "bi_license_number": null,
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": false,
+    "legal_entity_type": null,
+    "has_address": false,
+    "address_verified": false,
+    "has_phone": false,
+    "has_email": false,
+    "has_contact_form": false,
+    "info_consistent": false,
+    "linkedin_verified": false,
+    "google_maps_verified": false,
+    "notes": "Website doesn't exist (404 error). No verifiable entity information."
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": true,
+    "bi_license_verified": false,
+    "bi_license_number": null,
+    "license_scope_matches": null,
+    "ojk_registered": false,
+    "pse_registered": false,
+    "notes": "PJP claimed but NOT FOUND in BI official registry. CRITICAL: No BI license."
+  },
+  "parameter_c": {
+    "services_clearly_described": false,
+    "has_scope_documentation": false,
+    "has_deliverables": false,
+    "has_limitations": false,
+    "no_misleading_claims": true,
+    "notes": "Cannot verify - no website"
+  },
+  "parameter_d": {
+    "has_fee_disclosure": false,
+    "has_billing_cycle": false,
+    "has_settlement_info": false,
+    "has_refund_policy": false,
+    "has_dispute_process": false,
+    "has_sla": false,
+    "pricing_clear": false,
+    "notes": "Cannot verify - no website"
+  },
+  "parameter_e": {
+    "has_terms_page": false,
+    "has_cancellation_policy": false,
+    "has_refund_policy": false,
+    "has_dispute_clause": false,
+    "has_jurisdiction_clause": false,
+    "has_fee_schedule": false,
+    "tc_accessible": false,
+    "tc_current": false,
+    "notes": "Cannot verify - no website"
+  },
+  "parameter_f": {
+    "has_email_support": false,
+    "has_phone_support": false,
+    "has_chat_support": false,
+    "has_faq": false,
+    "has_escalation_path": false,
+    "has_sla": false,
+    "response_time_hours": null,
+    "notes": "No support channels found"
+  },
+  "parameter_g": {
+    "has_privacy_policy": false,
+    "privacy_policy_url": null,
+    "has_data_retention_policy": false,
+    "has_user_rights_section": false,
+    "has_dpo_contact": false,
+    "pdp_compliant": false,
+    "policy_date": null,
+    "notes": "Cannot verify - no website"
+  },
+  "parameter_h": {
+    "has_https": false,
+    "website_stable": false,
+    "has_secure_login": false,
+    "ssl_valid": false,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": "Website doesn't exist"
+  },
+  "parameter_i": {
+    "has_social_media": false,
+    "has_linkedin": false,
+    "has_google_maps": false,
+    "has_press_coverage": false,
+    "app_store_rating": null,
+    "review_count": null,
+    "negative_news": [],
+    "positive_news": [],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": "No verifiable online presence. No social media, news, or footprint."
+  },
+  "general_notes": "Expected: REJECT (PJP without BI license, no website, no presence)",
+  "researcher": "QA Test",
+  "research_date": "2025-02-15T12:00:00"
+}

@@ -1,0 +1,119 @@
+{
+  "merchant_info": {
+    "name": "PT Sample Merchant",
+    "website": "https://example.com",
+    "business_type": "subscription service",
+    "legal_entity_name": "PT Sample Merchant Indonesia",
+    "registration_number": "AHU-12345",
+    "address": "Jl. Sudirman No. 1, Jakarta",
+    "processes_payments_for_others": false,
+    "claimed_bi_license": null,
+    "bi_license_number": null,
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "has_address": true,
+    "address_verified": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_contact_form": true,
+    "info_consistent": true,
+    "linkedin_verified": true,
+    "google_maps_verified": true,
+    "notes": ""
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": false,
+    "bi_license_verified": false,
+    "bi_license_number": null,
+    "license_scope_matches": null,
+    "ojk_registered": false,
+    "pse_registered": true,
+    "bi_registry_checked": false,
+    "bi_registry_found": false,
+    "bi_registry_category": null,
+    "bi_registry_license_number": null,
+    "bi_registry_decision_number": null,
+    "bi_registry_date": null,
+    "bi_registry_status": null,
+    "bi_registry_url": null,
+    "bi_verification_notes": "",
+    "notes": "Regular merchant - no BI license required"
+  },
+  "parameter_c": {
+    "services_clearly_described": true,
+    "has_scope_documentation": true,
+    "has_deliverables": true,
+    "has_limitations": true,
+    "no_misleading_claims": true,
+    "notes": ""
+  },
+  "parameter_d": {
+    "has_fee_disclosure": true,
+    "has_billing_cycle": true,
+    "has_settlement_info": true,
+    "has_refund_policy": true,
+    "has_dispute_process": true,
+    "has_sla": false,
+    "pricing_clear": true,
+    "notes": ""
+  },
+  "parameter_e": {
+    "has_terms_page": true,
+    "has_cancellation_policy": true,
+    "has_refund_policy": true,
+    "has_dispute_clause": true,
+    "has_jurisdiction_clause": true,
+    "has_fee_schedule": true,
+    "tc_accessible": true,
+    "tc_current": true,
+    "notes": ""
+  },
+  "parameter_f": {
+    "has_email_support": true,
+    "has_phone_support": true,
+    "has_chat_support": true,
+    "has_faq": true,
+    "has_escalation_path": true,
+    "has_sla": true,
+    "response_time_hours": 24,
+    "notes": ""
+  },
+  "parameter_g": {
+    "has_privacy_policy": true,
+    "privacy_policy_url": "https://example.com/privacy",
+    "has_data_retention_policy": true,
+    "has_user_rights_section": true,
+    "has_dpo_contact": true,
+    "pdp_compliant": true,
+    "policy_date": "2024-01-15",
+    "notes": ""
+  },
+  "parameter_h": {
+    "has_https": true,
+    "website_stable": true,
+    "has_secure_login": true,
+    "ssl_valid": true,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": ""
+  },
+  "parameter_i": {
+    "has_social_media": true,
+    "has_linkedin": true,
+    "has_google_maps": true,
+    "has_press_coverage": true,
+    "app_store_rating": 4.5,
+    "review_count": 1500,
+    "negative_news": [],
+    "positive_news": ["Featured in Tech in Asia"],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": ""
+  },
+  "general_notes": "Sample merchant for testing purposes",
+  "researcher": "Risk Assessment Engine",
+  "research_date": "2026-02-21T12:00:00"
+}

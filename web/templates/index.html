@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ app_title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand-mark">RISK STUDIO</div>
+      <div class="meta-pill">Local-only • No persistence</div>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">Assessment Console</p>
+      <h1>Risk Assessment Studio</h1>
+      <p class="hero-copy">
+        Complete merchant, partner, vendor, and AI assessments from one guided workflow.
+        Every run is validated, scored by the existing Python engine, and returned as downloadable JSON and Markdown.
+      </p>
+    </section>
+
+    <section id="typeSelector" class="type-selector">
+      <h2>Start an Assessment</h2>
+      <p class="section-subtitle">Choose a framework to launch the wizard.</p>
+      <div class="type-grid">
+        {% for card in assessment_cards %}
+          <button class="type-card" data-type="{{ card.id }}" type="button">
+            <div class="card-head">
+              <h3>{{ card.title }}</h3>
+              <span class="score-tag">Max {{ card.max_score }}</span>
+            </div>
+            <p>{{ card.description }}</p>
+            <div class="card-foot">{{ card.step_count }} steps</div>
+          </button>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="wizardSection" class="wizard hidden" aria-live="polite">
+      <div class="wizard-header">
+        <div>
+          <p class="eyebrow">Guided Wizard</p>
+          <h2 id="wizardTitle">Assessment</h2>
+          <p id="wizardDescription" class="section-subtitle"></p>
+        </div>
+        <button id="changeTypeBtn" class="ghost-btn" type="button">Change Type</button>
+      </div>
+
+      <div class="progress-wrap">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <div class="wizard-grid">
+        <aside class="step-rail">
+          <h3>Steps</h3>
+          <ol id="stepList" class="step-list"></ol>
+        </aside>
+
+        <main class="step-panel">
+          <div id="stepMeta" class="step-meta"></div>
+          <form id="wizardForm" novalidate>
+            <div id="fieldContainer" class="field-container"></div>
+
+            <div class="wizard-nav">
+              <button id="prevBtn" type="button" class="ghost-btn">Previous</button>
+              <button id="nextBtn" type="button" class="primary-btn">Next Step</button>
+              <button id="submitBtn" type="submit" class="primary-btn hidden">Run Assessment</button>
+            </div>
+          </form>
+        </main>
+
+        <aside class="validation-pane">
+          <h3>Validation Summary</h3>
+          <p class="hint">Complete required fields to proceed.</p>
+          <ul id="validationList" class="validation-list"></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="resultSection" class="results hidden">
+      <div class="result-hero">
+        <h2>Assessment Result</h2>
+        <p id="resultHeadline" class="section-subtitle"></p>
+      </div>
+
+      <div class="result-grid">
+        <article class="result-card primary">
+          <p class="label">Decision</p>
+          <h3 id="decisionText">-</h3>
+          <div class="metrics">
+            <div>
+              <p class="label">Score</p>
+              <p id="scoreText">-</p>
+            </div>
+            <div>
+              <p class="label">Risk</p>
+              <p id="riskText">-</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <p class="label">Auto-Reject Triggers</p>
+          <ul id="triggerList" class="bullet-list"></ul>
+        </article>
+
+        <article class="result-card">
+          <p class="label">Top Concerns</p>
+          <ul id="concernList" class="bullet-list"></ul>
+        </article>
+      </div>
+
+      <div class="actions">
+        <button id="downloadJsonBtn" class="primary-btn" type="button">Download JSON</button>
+        <button id="downloadMdBtn" class="ghost-btn" type="button">Download Markdown</button>
+        <button id="newAssessmentBtn" class="ghost-btn" type="button">Start New Assessment</button>
+      </div>
+
+      <details class="details-panel">
+        <summary>Technical Details</summary>
+        <div id="parameterTableWrap"></div>
+      </details>
+    </section>
+
+    <section id="errorBanner" class="error-banner hidden" role="alert"></section>
+  </div>
+
+  <script>
+    window.__ASSESSMENT_CARDS__ = {{ assessment_cards | tojson }};
+  </script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

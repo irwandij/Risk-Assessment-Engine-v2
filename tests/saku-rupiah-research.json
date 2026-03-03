@@ -1,0 +1,110 @@
+{
+  "merchant_info": {
+    "name": "Saku Rupiah",
+    "website": "https://www.sakurupiah.id/",
+    "business_type": "Payment Gateway / Merchant Aggregator",
+    "legal_entity_name": "PT. RUPIAH JAYA UTAMA",
+    "registration_number": null,
+    "address": "Jl.Petanahan - Karangbolong no.10 Jawa-Tengah, Indonesia",
+    "processes_payments_for_others": true,
+    "claimed_bi_license": false,
+    "bi_license_number": null,
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "has_address": true,
+    "address_verified": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_contact_form": false,
+    "info_consistent": true,
+    "linkedin_verified": false,
+    "google_maps_verified": false,
+    "notes": "Legal entity PT. RUPIAH JAYA UTAMA. Address provided. Contact via WhatsApp: 6282133014951. Email: [email protected]"
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": true,
+    "bi_license_verified": false,
+    "bi_license_number": null,
+    "license_scope_matches": null,
+    "ojk_registered": false,
+    "pse_registered": true,
+    "notes": "CRITICAL: Operating as Payment Gateway/Aggregator (processes payments for other merchants). Claims to work through 'partnership with licensed payment gateway' but NO BI PJP license found. PSE registered at Kominfo. Claims: 'kami tidak menyediakan layanan produk jasa keuangan secara independen' - however aggregator services ARE regulated."
+  },
+  "parameter_c": {
+    "services_clearly_described": true,
+    "has_scope_documentation": true,
+    "has_deliverables": true,
+    "has_limitations": true,
+    "no_misleading_claims": false,
+    "notes": "Services clearly described: QRIS, Virtual Account, E-Wallet (DANA, GOPAY, OVO, ShopeePay), Bank transfers, Retail (Indomaret, Alfamart). API integration provided. Payment gateway aggregator services."
+  },
+  "parameter_d": {
+    "has_fee_disclosure": true,
+    "has_billing_cycle": true,
+    "has_settlement_info": true,
+    "has_refund_policy": false,
+    "has_dispute_process": false,
+    "has_sla": false,
+    "pricing_clear": true,
+    "notes": "Transparent fees: VA Rp 3,500, E-Wallet 3%, QRIS 0.7%, Retail Rp 3,000. Settlement H+0 to H+1. Missing refund policy and dispute process."
+  },
+  "parameter_e": {
+    "has_terms_page": true,
+    "has_cancellation_policy": false,
+    "has_refund_policy": false,
+    "has_dispute_clause": false,
+    "has_jurisdiction_clause": false,
+    "has_fee_schedule": true,
+    "tc_accessible": true,
+    "tc_current": true,
+    "notes": "Has T&C page and Privacy Policy. Missing: cancellation policy, refund policy, dispute clause. Website claims AES256 encryption and SSL/TLS."
+  },
+  "parameter_f": {
+    "has_email_support": true,
+    "has_phone_support": true,
+    "has_chat_support": true,
+    "has_faq": true,
+    "has_escalation_path": false,
+    "has_sla": false,
+    "response_time_hours": null,
+    "notes": "WhatsApp support available. FAQ section. Email and phone provided. No documented SLA or escalation path."
+  },
+  "parameter_g": {
+    "has_privacy_policy": true,
+    "privacy_policy_url": "https://sakurupiah.id/kebijakan-privasi",
+    "has_data_retention_policy": false,
+    "has_user_rights_section": false,
+    "has_dpo_contact": false,
+    "pdp_compliant": false,
+    "policy_date": null,
+    "notes": "Has privacy policy. Claims SSL/TLS and AES256 encryption. PDP compliance not verified."
+  },
+  "parameter_h": {
+    "has_https": true,
+    "website_stable": true,
+    "has_secure_login": true,
+    "ssl_valid": true,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": "Website functional. Has login system. Claims SSL/TLS and AES256 encryption. Security Policy page available."
+  },
+  "parameter_i": {
+    "has_social_media": false,
+    "has_linkedin": false,
+    "has_google_maps": false,
+    "has_press_coverage": false,
+    "app_store_rating": null,
+    "review_count": null,
+    "negative_news": [],
+    "positive_news": [],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": "No Play Store/App Store app. Limited social media presence. Member of Fintech Indonesia (AFTECH). No significant news coverage found."
+  },
+  "general_notes": "CRITICAL: Saku Rupiah is a Payment Gateway/Aggregator processing payments for OTHER merchants (offers QRIS, VA, E-Wallet, etc.). This is a REGULATED ACTIVITY requiring BI PJP license. They claim to operate through 'partnership with licensed payment gateway' but this does NOT exempt them from licensing requirements. NO BI PJP license found = AUTO-REJECT.",
+  "researcher": "Manual Research",
+  "research_date": "2026-02-18T12:00:00"
+}

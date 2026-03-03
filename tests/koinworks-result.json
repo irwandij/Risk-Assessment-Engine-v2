@@ -1,0 +1,195 @@
+{
+  "merchant_name": "Koinworks",
+  "merchant_type": "regular_merchant",
+  "classification": {
+    "merchant_type": "regular_merchant",
+    "merchant_type_display": "Regular Merchant",
+    "business_model": "P2P Lending Platform - Super App for Funding",
+    "payment_processing": "Own products/services",
+    "regulatory_requirement": "N/A",
+    "is_subscription_model": true
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Company Identity & Web Verification",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Legal entity type: PT",
+        "Business address available",
+        "Address verified (Google Maps/other)",
+        "Contact methods: phone, email, contact form",
+        "LinkedIn profile verified",
+        "Google Maps listing verified",
+        "Information consistent across sources"
+      ],
+      "gaps": [],
+      "notes": "Legal entity PT Lunaria Annua Teknologi. OJK licensed P2P lending platform. Well-established fintech."
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Regulatory & Licensing",
+      "score": 25,
+      "max_score": 25,
+      "rating": "excellent",
+      "evidence": [
+        "Regular Merchant - No BI/OJK license required",
+        "Business model: receives payments for own products/services",
+        "PSE registration found"
+      ],
+      "gaps": [],
+      "notes": "AUTO-PASS: Regular Merchant does not require financial services license"
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Product/Service Clarity",
+      "score": 8,
+      "max_score": 10,
+      "rating": "good",
+      "evidence": [
+        "Services/products clearly described",
+        "Scope of services documented",
+        "Deliverables clearly defined",
+        "Limitations/exceptions stated",
+        "No misleading claims identified"
+      ],
+      "gaps": [],
+      "notes": "Clear P2P lending services: Pinjaman Bisnis, Pinjaman PNS, Invoice Financing. Super App for Funding."
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Payment Transparency",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Some payment/billing information available",
+        "Fees disclosed",
+        "Billing cycle explained",
+        "Settlement information provided",
+        "Refund policy available",
+        "Dispute process defined",
+        "Payment SLA provided",
+        "Pricing is clear and transparent",
+        "Complete payment transparency for subscription model"
+      ],
+      "gaps": [],
+      "notes": "Transparent pricing for lending products. Clear fee structure on platform."
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "T&C Completeness",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Terms & Conditions page exists",
+        "T&C page accessible",
+        "Cancellation policy included",
+        "Refund policy included",
+        "Dispute resolution clause included",
+        "Jurisdiction clause included",
+        "Fee schedule included",
+        "T&C appears current",
+        "Complete T&C documentation for subscription service"
+      ],
+      "gaps": [],
+      "notes": "Complete T&C documentation. OJK compliant lending platform."
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Consumer Protection Readiness",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Email support available",
+        "Phone support available",
+        "Chat support available",
+        "Multiple support channels available",
+        "FAQ section available",
+        "Escalation path defined",
+        "Support SLA defined",
+        "Response time: 24h (within 24h)"
+      ],
+      "gaps": [],
+      "notes": "Multiple support channels. In-app chat, email, phone. Active customer service."
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Privacy & PDP Readiness",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Privacy policy exists",
+        "Privacy policy URL: https://koinworks.com/privacy-policy",
+        "Data retention policy included",
+        "User rights section included (PDP compliance)",
+        "DPO/Privacy contact available",
+        "Appears PDP Law compliant",
+        "Privacy policy last updated: 2024"
+      ],
+      "gaps": [],
+      "notes": "PDP compliant. OJK regulated lending platform with data protection requirements."
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Security Indicators",
+      "score": 5,
+      "max_score": 5,
+      "rating": "excellent",
+      "evidence": [
+        "Website uses HTTPS",
+        "SSL certificate valid",
+        "Website stable and functional",
+        "Secure login mechanism present"
+      ],
+      "gaps": [],
+      "notes": "Secure platform. Bank-level security. OJK compliance requires security standards."
+    },
+    "I": {
+      "parameter_id": "I",
+      "parameter_name": "Reputation & Public Footprint",
+      "score": 5,
+      "max_score": 5,
+      "rating": "excellent",
+      "evidence": [
+        "Strong online footprint",
+        "Excellent app rating: 4.5/5 (10000 reviews)",
+        "Positive coverage: 3 articles"
+      ],
+      "gaps": [],
+      "notes": "Established fintech. 10K+ reviews on Play Store. Multiple funding rounds. Strong reputation."
+    }
+  },
+  "total_score": 100,
+  "decision_result": {
+    "decision": "PROCEED",
+    "risk_level": "LOW",
+    "total_score": 100,
+    "is_auto_rejected": false,
+    "auto_reject_triggers": [],
+    "conditions": [],
+    "gate_override": false,
+    "gate_override_reason": ""
+  },
+  "strengths": [
+    "Company Identity & Web Verification: 15/15",
+    "Regulatory & Licensing: 25/25",
+    "Product/Service Clarity: 8/10",
+    "Payment Transparency: 15/15",
+    "T&C Completeness: 15/15",
+    "Consumer Protection Readiness: 10/10",
+    "Privacy & PDP Readiness: 10/10",
+    "Security Indicators: 5/5",
+    "Reputation & Public Footprint: 5/5"
+  ],
+  "concerns": [],
+  "recommendations": [],
+  "regulatory_gate": null,
+  "assessment_date": "2026-02-18 10:46:04.847751",
+  "framework_version": "2.1"
+}

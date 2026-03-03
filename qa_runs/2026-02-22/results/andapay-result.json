@@ -1,0 +1,252 @@
+{
+  "merchant_name": "Andapay",
+  "merchant_type": "pjp_aggregator",
+  "classification": {
+    "merchant_type": "pjp_aggregator",
+    "merchant_type_display": "PJP / Aggregator",
+    "business_model": "Money Transfer / Remittance Services",
+    "payment_processing": "On behalf of others",
+    "regulatory_requirement": "BI PJP License Required",
+    "is_subscription_model": true
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Company Identity & Web Verification",
+      "score": 0,
+      "max_score": 15,
+      "rating": "fail",
+      "evidence": [
+        "Legal entity type: PT",
+        "Contact methods: phone, email",
+        "Information consistent across sources"
+      ],
+      "gaps": [
+        "No business address found"
+      ],
+      "notes": "Legal entity: PT Andalusia Antar Benua. Contact: info@andapay.id, +62 816 882298. Website built on Framer. No physical address displayed."
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Regulatory & Licensing",
+      "score": 0,
+      "max_score": 25,
+      "rating": "fail",
+      "evidence": [
+        "PJP/Aggregator - BI PJP License REQUIRED",
+        "BI License Registry CHECKED - NO MATCH FOUND"
+      ],
+      "gaps": [
+        "Claimed license 13/83/DASP/33 NOT FOUND in BI registry",
+        "CRITICAL: No valid BI PJP license found in official registry",
+        "PJP/Aggregator requires valid BI license to operate",
+        "Verification notes: BI Registry checked on 2026-02-18. License format 13/83/DASP/33 is OLD format from pre-2016 era (before PBI 18/40/PBI/2016). Current BI registry shows new format licenses (e.g., 28/2/KEP.GBI/Btm/2026)"
+      ],
+      "notes": "AUTO-REJECT: License not found in BI registry. BI Registry checked on 2026-02-18. License format 13/83/DASP/33 is OLD format from pre-2016 era (before PBI 18/40/PBI/2016). Current BI registry shows new format licenses (e.g., 28/2/KEP.GBI/Btm/2026). Old-format licenses should have been converted to new PJP categories after 2016. License NOT FOUND in current BI registry search. POSSIBLE SCENARIOS: (1) License revoked/expired, (2) Converted but under different company name, (3) License not renewed. MANUAL VERIFICATION REQUIRED: Check 'Izin Dicabut' status filter or contact BI directly."
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Product/Service Clarity",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "Services/products clearly described",
+        "Scope of services documented",
+        "Deliverables clearly defined",
+        "No misleading claims identified"
+      ],
+      "gaps": [],
+      "notes": "Services clearly described: Local Transfer (Interbank, BI Fast, E-wallet), International Transfer, Business disbursement solutions. Dashboard and API integration available."
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Payment Transparency",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "Refund policy available"
+      ],
+      "gaps": [
+        "Minimal payment transparency - no fees or billing info visible",
+        "No fee disclosure found",
+        "Billing cycle not explained",
+        "Settlement information missing",
+        "Dispute process not defined"
+      ],
+      "notes": "Claims 'pay per successful transaction, no hidden fees' and 'money back guarantee if transaction fails'. No specific fee amounts disclosed. No pricing page."
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "T&C Completeness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "No Terms & Conditions page found",
+        "Cancellation policy missing",
+        "Refund policy missing",
+        "Dispute resolution clause missing",
+        "T&C may be outdated"
+      ],
+      "notes": "No T&C page found. No privacy policy visible. Website is a simple landing page built on Framer."
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Consumer Protection Readiness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "Email support available",
+        "Phone support available",
+        "Multiple support channels available"
+      ],
+      "gaps": [
+        "No escalation path defined",
+        "No support SLA defined"
+      ],
+      "notes": "Email: info@andapay.id. Phone: +62 816 882298. Claims 24/7 customer support. No FAQ, no chat support."
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Privacy & PDP Readiness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "No privacy policy found",
+        "Data retention policy missing",
+        "User rights section missing (PDP compliance gap)",
+        "PDP compliance concerns"
+      ],
+      "notes": "No privacy policy found. PDP compliance not verifiable."
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Security Indicators",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [
+        "Website uses HTTPS",
+        "SSL certificate valid",
+        "Website stable and functional"
+      ],
+      "gaps": [
+        "No secure login mechanism detected"
+      ],
+      "notes": "Website built on Framer (framer.website). HTTPS enabled. No customer portal/login on landing page."
+    },
+    "I": {
+      "parameter_id": "I",
+      "parameter_name": "Reputation & Public Footprint",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "Very limited online footprint"
+      ],
+      "notes": "No Play Store/App Store app. Limited online presence. Claims BI license since 2011 (long-established company). No social media links found."
+    }
+  },
+  "total_score": 0,
+  "decision_result": {
+    "decision": "REJECT",
+    "risk_level": "VERY HIGH",
+    "total_score": 0,
+    "is_auto_rejected": true,
+    "auto_reject_triggers": [
+      {
+        "code": "NO_BI_LICENSE_REGISTRY",
+        "reason": "Regulatory non-compliance",
+        "details": "PJP/Aggregator without verifiable BI license"
+      }
+    ],
+    "conditions": [],
+    "gate_override": true,
+    "gate_override_reason": "NO_BI_LICENSE_REGISTRY"
+  },
+  "strengths": [],
+  "concerns": [
+    "No business address found",
+    "Claimed license 13/83/DASP/33 NOT FOUND in BI registry",
+    "CRITICAL: No valid BI PJP license found in official registry",
+    "Minimal payment transparency - no fees or billing info visible",
+    "No fee disclosure found",
+    "No Terms & Conditions page found",
+    "Cancellation policy missing",
+    "No escalation path defined",
+    "No support SLA defined",
+    "No privacy policy found"
+  ],
+  "recommendations": [
+    {
+      "recommendation": "[Company Identity & Web Verification] No business address found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Regulatory & Licensing] Claimed license 13/83/DASP/33 NOT FOUND in BI registry",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Regulatory & Licensing] CRITICAL: No valid BI PJP license found in official registry",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Payment Transparency] Minimal payment transparency - no fees or billing info visible",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Payment Transparency] No fee disclosure found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[T&C Completeness] No Terms & Conditions page found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[T&C Completeness] Cancellation policy missing",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Consumer Protection Readiness] No escalation path defined",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Consumer Protection Readiness] No support SLA defined",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Privacy & PDP Readiness] No privacy policy found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    }
+  ],
+  "regulatory_gate": {
+    "regulated_activity": true,
+    "required_license": "BI PJP License",
+    "license_status": "Not Verified",
+    "license_number": "13/83/DASP/33",
+    "gate_override": true,
+    "gate_override_reason": "APPLICABLE - REJECT"
+  },
+  "reference_urls": {
+    "website": "https://andapay.framer.website/"
+  },
+  "assessment_date": "2026-02-22 05:59:50.921191",
+  "framework_version": "2.1"
+}

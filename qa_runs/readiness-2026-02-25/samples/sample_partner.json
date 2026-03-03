@@ -1,0 +1,105 @@
+{
+  "partner_info": {
+    "name": "PT Sample Partner",
+    "website": "https://partner-example.com",
+    "partnership_type": "strategic alliance",
+    "legal_entity_name": "PT Sample Partner Indonesia",
+    "registration_number": "AHU-54321",
+    "country_of_incorporation": "Indonesia",
+    "address": "Jl. Thamrin No. 10, Jakarta",
+    "industry_sector": "Financial Technology",
+    "years_in_business": 5
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "registration_verified": true,
+    "has_address": true,
+    "ownership_structure_clear": true,
+    "beneficial_owners_identified": true,
+    "politically_exposed": false,
+    "subsidiaries_listed": true,
+    "notes": ""
+  },
+  "parameter_b": {
+    "financial_statements_available": true,
+    "audited_financials": true,
+    "revenue_trend_positive": true,
+    "profitability_trend_positive": true,
+    "debt_to_equity_healthy": true,
+    "current_ratio_healthy": true,
+    "has_credit_rating": true,
+    "credit_rating_value": "A",
+    "insurance_coverage_adequate": true,
+    "notes": ""
+  },
+  "parameter_c": {
+    "business_model_aligned": true,
+    "shared_objectives": true,
+    "complementary_capabilities": true,
+    "market_position_aligned": true,
+    "cultural_fit": true,
+    "long_term_commitment": true,
+    "partnership_value_proposition": true,
+    "notes": ""
+  },
+  "parameter_d": {
+    "has_track_record": true,
+    "years_of_experience": 10,
+    "has_expertise": true,
+    "management_team_qualified": true,
+    "has_adequate_resources": true,
+    "operational_processes_documented": true,
+    "quality_certifications": true,
+    "project_management_capability": true,
+    "innovation_capability": true,
+    "notes": ""
+  },
+  "parameter_e": {
+    "has_required_licenses": true,
+    "licenses_verified": true,
+    "license_expiry_date": "2026-12-31",
+    "no_regulatory_issues": true,
+    "compliance_program_exists": true,
+    "aml_kyc_compliant": true,
+    "sanctions_screened": true,
+    "no_legal_issues": true,
+    "regulatory_stand": "Good standing",
+    "notes": ""
+  },
+  "parameter_f": {
+    "has_market_reputation": true,
+    "references_available": true,
+    "reference_check_positive": true,
+    "has_industry_recognition": true,
+    "media_coverage_positive": true,
+    "no_negative_news": true,
+    "no_past_issues": true,
+    "esg_rating_positive": true,
+    "notes": ""
+  },
+  "parameter_g": {
+    "has_data_protection_policy": true,
+    "has_security_certifications": true,
+    "data_handling_documented": true,
+    "encryption_standards": true,
+    "access_controls": true,
+    "incident_response_plan": true,
+    "regular_security_audits": true,
+    "no_data_breaches": true,
+    "notes": ""
+  },
+  "parameter_h": {
+    "contract_draft_available": true,
+    "terms_clear": true,
+    "liability_clauses_defined": true,
+    "exit_clauses_defined": true,
+    "ip_rights_clear": true,
+    "governance_structure_defined": true,
+    "escalation_process_defined": true,
+    "notes": ""
+  },
+  "general_notes": "Sample partner for testing purposes",
+  "assessor": "Risk Assessment Engine",
+  "assessment_date": "2026-02-21T12:00:00"
+}

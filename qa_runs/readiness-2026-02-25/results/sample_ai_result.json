@@ -1,0 +1,147 @@
+{
+  "merchant_name": "Sample AI Project",
+  "merchant_type": "ai_project",
+  "classification": {
+    "assessment_type": "ai_project",
+    "assessment_type_display": "AI Project Assessment",
+    "project_owner": "John Doe",
+    "department": "Data Science",
+    "ai_type": "GenAI / LLM",
+    "is_external_facing": true,
+    "processes_personal_data": true
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Privacy & PDP Compliance",
+      "score": 0,
+      "max_score": 0,
+      "rating": "pass",
+      "evidence": [
+        "AI processes personal data (customer, merchant, employee)",
+        "PDPWG has formally approved this AI use",
+        "Approval details: PDPWG approval obtained on 2026-01-15"
+      ],
+      "gaps": [],
+      "notes": "Hard Stop Status: PASSED"
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Security",
+      "score": 0,
+      "max_score": 0,
+      "rating": "pass",
+      "evidence": [
+        "AI is customer/external facing",
+        "IT/Security has reviewed the system",
+        "Review details: Security review completed, pentest scheduled for Q2 2026"
+      ],
+      "gaps": [],
+      "notes": "Hard Stop Status: PASSED"
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Value",
+      "score": 0,
+      "max_score": 0,
+      "rating": "pass",
+      "evidence": [
+        "Clear business/operational problem defined",
+        "Problem: Reduce customer service response time and handle 24/7 inquiries",
+        "KPI/KRI defined for measuring success",
+        "AI delivers measurable benefit",
+        "Benefit: Expected 60% reduction in response time, 40% cost savings",
+        "Expected value exceeds total cost and risk"
+      ],
+      "gaps": [],
+      "notes": "Hard Stop Status: PASSED"
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Accountability & Human Oversight",
+      "score": 4,
+      "max_score": 4,
+      "rating": "excellent",
+      "evidence": [
+        "Named AI system owner: Jane Smith",
+        "Details: AI system owner is the Head of Customer Service",
+        "Humans can review, override, or stop AI decisions",
+        "Override mechanism: Escalation to human agent button always visible"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "Reliability & Monitoring",
+      "score": 4,
+      "max_score": 4,
+      "rating": "excellent",
+      "evidence": [
+        "Comprehensive testing including edge cases",
+        "Testing: Tested with 1000+ test cases including edge cases",
+        "Fallback/manual process exists if AI fails",
+        "Fallback: Rule-based fallback with human escalation",
+        "Monitoring plan exists for accuracy, errors, drift",
+        "Metrics: Response time, user rating, escalation rate, accuracy"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Fairness",
+      "score": 4,
+      "max_score": 4,
+      "rating": "excellent",
+      "evidence": [
+        "AI checked for unfair bias",
+        "Bias check: A/B testing with diverse user groups",
+        "Details: Bias testing conducted across demographic groups",
+        "Unfair outcomes can be detected and corrected",
+        "Correction: Weekly bias review with model retraining pipeline"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Transparency",
+      "score": 4,
+      "max_score": 4,
+      "rating": "excellent",
+      "evidence": [
+        "Users/stakeholders informed when interacting with AI",
+        "Notification: Clear disclosure at start of chat session",
+        "Details: Users are informed they are chatting with AI assistant",
+        "AI decisions can be explained at business level",
+        "Explanation: Natural language explanations with confidence scores"
+      ],
+      "gaps": [],
+      "notes": ""
+    }
+  },
+  "total_score": 16,
+  "decision_result": {
+    "decision": "LOW",
+    "risk_level": "LOW",
+    "total_score": 16,
+    "is_auto_rejected": false,
+    "auto_reject_triggers": [],
+    "conditions": [],
+    "gate_override": false,
+    "gate_override_reason": ""
+  },
+  "strengths": [
+    "Accountability & Human Oversight: 4/4",
+    "Reliability & Monitoring: 4/4",
+    "Fairness: 4/4",
+    "Transparency: 4/4"
+  ],
+  "concerns": [],
+  "recommendations": [],
+  "regulatory_gate": null,
+  "reference_urls": {},
+  "assessment_date": "2026-02-25 18:16:48.946081",
+  "framework_version": "2.0"
+}

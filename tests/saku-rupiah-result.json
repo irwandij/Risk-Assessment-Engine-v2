@@ -1,0 +1,246 @@
+{
+  "merchant_name": "Saku Rupiah",
+  "merchant_type": "pjp_aggregator",
+  "classification": {
+    "merchant_type": "pjp_aggregator",
+    "merchant_type_display": "PJP / Aggregator",
+    "business_model": "Payment Gateway / Merchant Aggregator",
+    "payment_processing": "On behalf of others",
+    "regulatory_requirement": "BI PJP License Required",
+    "is_subscription_model": true
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Company Identity & Web Verification",
+      "score": 11,
+      "max_score": 15,
+      "rating": "good",
+      "evidence": [
+        "Legal entity type: PT",
+        "Business address available",
+        "Address verified (Google Maps/other)",
+        "Contact methods: phone, email",
+        "Information consistent across sources"
+      ],
+      "gaps": [],
+      "notes": "Legal entity PT. RUPIAH JAYA UTAMA. Address provided. Contact via WhatsApp: 6282133014951. Email: [email protected]"
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Regulatory & Licensing",
+      "score": 0,
+      "max_score": 25,
+      "rating": "fail",
+      "evidence": [
+        "PJP/Aggregator - BI PJP License REQUIRED",
+        "BI License registry checked - NO MATCH FOUND"
+      ],
+      "gaps": [
+        "CRITICAL: No BI PJP license found",
+        "PJP/Aggregator requires BI license to operate"
+      ],
+      "notes": "AUTO-REJECT TRIGGERED: NO_BI_LICENSE"
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Product/Service Clarity",
+      "score": 5,
+      "max_score": 10,
+      "rating": "fair",
+      "evidence": [
+        "Services/products clearly described",
+        "Scope of services documented",
+        "Deliverables clearly defined",
+        "Limitations/exceptions stated"
+      ],
+      "gaps": [
+        "Potential misleading claims detected"
+      ],
+      "notes": "Services clearly described: QRIS, Virtual Account, E-Wallet (DANA, GOPAY, OVO, ShopeePay), Bank transfers, Retail (Indomaret, Alfamart). API integration provided. Payment gateway aggregator services."
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Payment Transparency",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Some payment/billing information available",
+        "Fees disclosed",
+        "Billing cycle explained",
+        "Settlement information provided",
+        "Pricing is clear and transparent"
+      ],
+      "gaps": [
+        "No refund policy found",
+        "Dispute process not defined"
+      ],
+      "notes": "Transparent fees: VA Rp 3,500, E-Wallet 3%, QRIS 0.7%, Retail Rp 3,000. Settlement H+0 to H+1. Missing refund policy and dispute process."
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "T&C Completeness",
+      "score": 8,
+      "max_score": 10,
+      "rating": "good",
+      "evidence": [
+        "Terms & Conditions page exists",
+        "T&C page accessible",
+        "Fee schedule included",
+        "T&C appears current"
+      ],
+      "gaps": [
+        "Cancellation policy missing",
+        "Refund policy missing",
+        "Dispute resolution clause missing"
+      ],
+      "notes": "Has T&C page and Privacy Policy. Missing: cancellation policy, refund policy, dispute clause. Website claims AES256 encryption and SSL/TLS."
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Consumer Protection Readiness",
+      "score": 5,
+      "max_score": 10,
+      "rating": "fair",
+      "evidence": [
+        "Email support available",
+        "Phone support available",
+        "Chat support available",
+        "Multiple support channels available",
+        "FAQ section available"
+      ],
+      "gaps": [
+        "No escalation path defined",
+        "No support SLA defined"
+      ],
+      "notes": "WhatsApp support available. FAQ section. Email and phone provided. No documented SLA or escalation path."
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Privacy & PDP Readiness",
+      "score": 3,
+      "max_score": 10,
+      "rating": "weak",
+      "evidence": [
+        "Privacy policy exists",
+        "Privacy policy URL: https://sakurupiah.id/kebijakan-privasi"
+      ],
+      "gaps": [
+        "Data retention policy missing",
+        "User rights section missing (PDP compliance gap)",
+        "PDP compliance concerns"
+      ],
+      "notes": "Has privacy policy. Claims SSL/TLS and AES256 encryption. PDP compliance not verified."
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Security Indicators",
+      "score": 5,
+      "max_score": 5,
+      "rating": "excellent",
+      "evidence": [
+        "Website uses HTTPS",
+        "SSL certificate valid",
+        "Website stable and functional",
+        "Secure login mechanism present"
+      ],
+      "gaps": [],
+      "notes": "Website functional. Has login system. Claims SSL/TLS and AES256 encryption. Security Policy page available."
+    },
+    "I": {
+      "parameter_id": "I",
+      "parameter_name": "Reputation & Public Footprint",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "Very limited online footprint"
+      ],
+      "notes": "No Play Store/App Store app. Limited social media presence. Member of Fintech Indonesia (AFTECH). No significant news coverage found."
+    }
+  },
+  "total_score": 47,
+  "decision_result": {
+    "decision": "REJECT",
+    "risk_level": "VERY HIGH",
+    "total_score": 47,
+    "is_auto_rejected": true,
+    "auto_reject_triggers": [
+      {
+        "code": "NO_BI_LICENSE",
+        "reason": "PJP/Aggregator without verifiable BI license",
+        "details": "PJP/Aggregator without verifiable BI license"
+      }
+    ],
+    "conditions": [],
+    "gate_override": true,
+    "gate_override_reason": "NO_BI_LICENSE"
+  },
+  "strengths": [
+    "Company Identity & Web Verification: 11/15",
+    "Payment Transparency: 10/10",
+    "T&C Completeness: 8/10",
+    "Security Indicators: 5/5"
+  ],
+  "concerns": [
+    "CRITICAL: No BI PJP license found",
+    "PJP/Aggregator requires BI license to operate",
+    "Data retention policy missing",
+    "User rights section missing (PDP compliance gap)",
+    "Very limited online footprint"
+  ],
+  "recommendations": [
+    {
+      "recommendation": "[Regulatory & Licensing] CRITICAL: No BI PJP license found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Regulatory & Licensing] PJP/Aggregator requires BI license to operate",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Product/Service Clarity] Potential misleading claims detected",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Consumer Protection Readiness] No escalation path defined",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Consumer Protection Readiness] No support SLA defined",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Privacy & PDP Readiness] Data retention policy missing",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Privacy & PDP Readiness] User rights section missing (PDP compliance gap)",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Reputation & Public Footprint] Very limited online footprint",
+      "priority": "high",
+      "category": "risk_mitigation"
+    }
+  ],
+  "regulatory_gate": {
+    "regulated_activity": true,
+    "required_license": "BI PJP License",
+    "license_status": "Not Found",
+    "license_number": null,
+    "gate_override": true,
+    "gate_override_reason": "APPLICABLE - REJECT"
+  },
+  "assessment_date": "2026-02-18 11:00:13.771572",
+  "framework_version": "2.1"
+}

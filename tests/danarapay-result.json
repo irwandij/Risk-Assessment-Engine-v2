@@ -1,0 +1,245 @@
+{
+  "merchant_name": "DANARAPAY",
+  "merchant_type": "pjp_aggregator",
+  "classification": {
+    "merchant_type": "pjp_aggregator",
+    "merchant_type_display": "PJP / Aggregator",
+    "business_model": "Payment Services (claimed)",
+    "payment_processing": "On behalf of others",
+    "regulatory_requirement": "BI PJP License Required",
+    "is_subscription_model": true
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Company Identity & Web Verification",
+      "score": 0,
+      "max_score": 15,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "No legal entity (PT/CV) information found",
+        "No business address found",
+        "No contact information found"
+      ],
+      "notes": "Website doesn't exist (404 error). No verifiable entity information."
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Regulatory & Licensing",
+      "score": 0,
+      "max_score": 25,
+      "rating": "fail",
+      "evidence": [
+        "PJP/Aggregator - BI PJP License REQUIRED",
+        "BI License registry checked - NO MATCH FOUND"
+      ],
+      "gaps": [
+        "CRITICAL: No BI PJP license found",
+        "PJP/Aggregator requires BI license to operate"
+      ],
+      "notes": "AUTO-REJECT TRIGGERED: NO_BI_LICENSE"
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Product/Service Clarity",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "No misleading claims identified"
+      ],
+      "gaps": [
+        "Services/products not clearly described",
+        "Scope documentation missing or unclear",
+        "Deliverables not clearly defined"
+      ],
+      "notes": "Cannot verify - no website"
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Payment Transparency",
+      "score": 4,
+      "max_score": 10,
+      "rating": "weak",
+      "evidence": [],
+      "gaps": [
+        "Minimal payment transparency - no fees or billing info visible",
+        "No fee disclosure found",
+        "Billing cycle not explained",
+        "Settlement information missing",
+        "No refund policy found",
+        "Dispute process not defined"
+      ],
+      "notes": "Cannot verify - no website"
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "T&C Completeness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "No Terms & Conditions page found",
+        "Cancellation policy missing",
+        "Refund policy missing",
+        "Dispute resolution clause missing",
+        "T&C may be outdated"
+      ],
+      "notes": "Cannot verify - no website"
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Consumer Protection Readiness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "No customer support channels found",
+        "No escalation path defined",
+        "No support SLA defined"
+      ],
+      "notes": "No support channels found"
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Privacy & PDP Readiness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "No privacy policy found",
+        "Data retention policy missing",
+        "User rights section missing (PDP compliance gap)",
+        "PDP compliance concerns"
+      ],
+      "notes": "Cannot verify - no website"
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Security Indicators",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "Website does not use HTTPS",
+        "Website stability issues",
+        "No secure login mechanism detected"
+      ],
+      "notes": "Website doesn't exist"
+    },
+    "I": {
+      "parameter_id": "I",
+      "parameter_name": "Reputation & Public Footprint",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "Very limited online footprint"
+      ],
+      "notes": "No verifiable online presence. No social media, news, or footprint."
+    }
+  },
+  "total_score": 4,
+  "decision_result": {
+    "decision": "REJECT",
+    "risk_level": "VERY HIGH",
+    "total_score": 4,
+    "is_auto_rejected": true,
+    "auto_reject_triggers": [
+      {
+        "code": "NO_BI_LICENSE",
+        "reason": "PJP/Aggregator without verifiable BI license",
+        "details": "PJP/Aggregator without verifiable BI license"
+      },
+      {
+        "code": "NO_ONLINE_PRESENCE",
+        "reason": "No functioning website and no social media presence",
+        "details": "No website, social media, or other online presence found"
+      }
+    ],
+    "conditions": [],
+    "gate_override": true,
+    "gate_override_reason": "NO_BI_LICENSE"
+  },
+  "strengths": [],
+  "concerns": [
+    "No legal entity (PT/CV) information found",
+    "No business address found",
+    "CRITICAL: No BI PJP license found",
+    "PJP/Aggregator requires BI license to operate",
+    "Services/products not clearly described",
+    "Scope documentation missing or unclear",
+    "Minimal payment transparency - no fees or billing info visible",
+    "No fee disclosure found",
+    "No Terms & Conditions page found",
+    "Cancellation policy missing"
+  ],
+  "recommendations": [
+    {
+      "recommendation": "[Company Identity & Web Verification] No legal entity (PT/CV) information found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Company Identity & Web Verification] No business address found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Regulatory & Licensing] CRITICAL: No BI PJP license found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Regulatory & Licensing] PJP/Aggregator requires BI license to operate",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Product/Service Clarity] Services/products not clearly described",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Product/Service Clarity] Scope documentation missing or unclear",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Payment Transparency] Minimal payment transparency - no fees or billing info visible",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Payment Transparency] No fee disclosure found",
+      "priority": "medium",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[T&C Completeness] No Terms & Conditions page found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[T&C Completeness] Cancellation policy missing",
+      "priority": "high",
+      "category": "risk_mitigation"
+    }
+  ],
+  "regulatory_gate": {
+    "regulated_activity": true,
+    "required_license": "BI PJP License",
+    "license_status": "Not Found",
+    "license_number": null,
+    "gate_override": true,
+    "gate_override_reason": "APPLICABLE - REJECT"
+  },
+  "assessment_date": "2026-02-18 07:11:39.744153",
+  "framework_version": "2.1"
+}

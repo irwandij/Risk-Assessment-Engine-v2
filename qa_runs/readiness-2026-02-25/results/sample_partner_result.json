@@ -1,0 +1,193 @@
+{
+  "merchant_name": "PT Sample Partner",
+  "merchant_type": "partner",
+  "classification": {
+    "assessment_type": "partner",
+    "assessment_type_display": "Partners Assessment",
+    "partnership_type": "strategic alliance",
+    "industry_sector": "Financial Technology",
+    "country": "Indonesia"
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Company Profile",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Legal entity type: PT",
+        "Registration verified with authorities",
+        "Ownership structure is transparent",
+        "Ultimate beneficial owners identified",
+        "No PEP connections identified",
+        "Subsidiaries and affiliates listed",
+        "Physical address available",
+        "Established business (5 years)"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Financial Stability",
+      "score": 14,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Financial statements available",
+        "Audited financial statements",
+        "Positive revenue trend over 3 years",
+        "Positive profitability trend",
+        "Healthy debt-to-equity ratio",
+        "Healthy current ratio (1.5+)",
+        "Has credit rating: A",
+        "Investment grade rating",
+        "Adequate insurance coverage"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Strategic Alignment",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Business model aligns with our strategy",
+        "Shared strategic objectives identified",
+        "Capabilities complement each other",
+        "Market position is compatible",
+        "Corporate culture is compatible",
+        "Evidence of long-term commitment",
+        "Clear partnership value proposition"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Operational Capability",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Proven track record in relevant field",
+        "Extensive experience (10 years)",
+        "Has required expertise and skills",
+        "Qualified management team",
+        "Adequate resources available",
+        "Operational processes documented",
+        "Has relevant quality certifications",
+        "Demonstrates innovation capability",
+        "Project management capability demonstrated"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "Regulatory Compliance",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Has required licenses for business",
+        "Licenses verified with authorities",
+        "License expiry: 2026-12-31",
+        "No regulatory issues or sanctions",
+        "Compliance program exists",
+        "AML/KYC compliant",
+        "Screened against sanctions lists",
+        "No pending legal issues or litigation"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Reputation & Track Record",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Has positive market reputation",
+        "Client/partner references available",
+        "Reference checks are positive",
+        "Has industry recognition or awards",
+        "Positive media coverage",
+        "No past partnership failures or issues",
+        "Positive ESG rating"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Data & Security",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Has data protection policy",
+        "Has security certifications (ISO 27001, SOC 2)",
+        "Data handling procedures documented",
+        "Uses encryption standards for data",
+        "Has proper access controls",
+        "Has incident response plan",
+        "Conducts regular security audits",
+        "No history of data breaches"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Contract & Governance",
+      "score": 5,
+      "max_score": 5,
+      "rating": "excellent",
+      "evidence": [
+        "Contract draft available for review",
+        "Contract terms are clear and fair",
+        "Liability clauses are well-defined",
+        "Exit/termination clauses defined",
+        "Governance structure defined",
+        "Intellectual property rights are clear",
+        "Escalation process defined"
+      ],
+      "gaps": [],
+      "notes": ""
+    }
+  },
+  "total_score": 99,
+  "decision_result": {
+    "decision": "PROCEED",
+    "risk_level": "LOW",
+    "total_score": 99,
+    "is_auto_rejected": false,
+    "auto_reject_triggers": [],
+    "conditions": [],
+    "gate_override": false,
+    "gate_override_reason": ""
+  },
+  "strengths": [
+    "Company Profile: 15/15",
+    "Financial Stability: 14/15",
+    "Strategic Alignment: 15/15",
+    "Operational Capability: 15/15",
+    "Regulatory Compliance: 15/15",
+    "Reputation & Track Record: 10/10",
+    "Data & Security: 10/10",
+    "Contract & Governance: 5/5"
+  ],
+  "concerns": [],
+  "recommendations": [],
+  "regulatory_gate": null,
+  "reference_urls": {
+    "website": "https://partner-example.com"
+  },
+  "assessment_date": "2026-02-25 18:16:48.755990",
+  "framework_version": "2.0"
+}

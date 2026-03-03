@@ -1,0 +1,84 @@
+[
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/tiga-pilar-media-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 67,
+    "decision": "PROCEED WITH CONDITIONS",
+    "risk": "MEDIUM",
+    "auto_rejected": false,
+    "triggers": []
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/danarapay-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 4,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "auto_rejected": true,
+    "triggers": [
+      "NO_BI_LICENSE",
+      "NO_ONLINE_PRESENCE"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/singapay-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 36,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "auto_rejected": true,
+    "triggers": [
+      "NO_BI_LICENSE"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/hss-sumber-remitan-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 4,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "auto_rejected": true,
+    "triggers": [
+      "NO_BI_LICENSE",
+      "NO_ONLINE_PRESENCE"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/saku-rupiah-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 47,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "auto_rejected": true,
+    "triggers": [
+      "NO_BI_LICENSE"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/koinworks-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 100,
+    "decision": "PROCEED",
+    "risk": "LOW",
+    "auto_rejected": false,
+    "triggers": []
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/andapay-research.json",
+    "validate_rc": 0,
+    "assess_rc": 0,
+    "score": 28,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "auto_rejected": true,
+    "triggers": [
+      "NO_BI_LICENSE_REGISTRY"
+    ]
+  }
+]

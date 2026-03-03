@@ -1,0 +1,62 @@
+[
+  {
+    "case": "sample_merchant",
+    "rc": 0,
+    "output_exists": true
+  },
+  {
+    "case": "sample_partner",
+    "rc": 0,
+    "output_exists": true
+  },
+  {
+    "case": "sample_vendor",
+    "rc": 0,
+    "output_exists": true
+  },
+  {
+    "case": "sample_ai",
+    "rc": 0,
+    "output_exists": true
+  },
+  {
+    "case": "assess:sample_merchant.json",
+    "rc": 0,
+    "score": 100,
+    "decision": "PROCEED",
+    "risk": "LOW",
+    "output_exists": true
+  },
+  {
+    "case": "assess-partner:sample_partner.json",
+    "rc": 0,
+    "score": 99,
+    "decision": "PROCEED",
+    "risk": "LOW",
+    "output_exists": true
+  },
+  {
+    "case": "assess-vendor:sample_vendor.json",
+    "rc": 0,
+    "score": 96,
+    "decision": "APPROVED",
+    "risk": "LOW",
+    "output_exists": true
+  },
+  {
+    "case": "assess-ai:sample_ai.json",
+    "rc": 0,
+    "score": 16,
+    "decision": "LOW",
+    "risk": "LOW",
+    "output_exists": true
+  },
+  {
+    "case": "negative_1",
+    "rc": 1
+  },
+  {
+    "case": "negative_2",
+    "rc": 1
+  }
+]

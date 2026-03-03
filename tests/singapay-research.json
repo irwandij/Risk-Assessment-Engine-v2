@@ -1,0 +1,110 @@
+{
+  "merchant_info": {
+    "name": "PT Abadi Singapay Indonesia",
+    "website": "https://singapay.id",
+    "business_type": "Digital Wallet / Payment Service Provider",
+    "legal_entity_name": "PT Abadi Singapay Indonesia",
+    "registration_number": null,
+    "address": "Foresta Business Loft 5 No. 30, Jl. BSD Boulevard Utara No. 7, Kabupaten Tangerang, Banten 15331",
+    "processes_payments_for_others": true,
+    "claimed_bi_license": false,
+    "bi_license_number": null,
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "has_address": true,
+    "address_verified": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_contact_form": false,
+    "info_consistent": true,
+    "linkedin_verified": false,
+    "google_maps_verified": false,
+    "notes": "Legal entity name, full office address, multiple contact channels. Website has SSL certificate verification issue."
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": true,
+    "bi_license_verified": false,
+    "bi_license_number": null,
+    "license_scope_matches": null,
+    "ojk_registered": false,
+    "pse_registered": false,
+    "notes": "PJP - BI PJP License REQUIRED but NOT VERIFIED. Operating as payment service provider (digital wallet, fund transfers, QRIS payments)."
+  },
+  "parameter_c": {
+    "services_clearly_described": true,
+    "has_scope_documentation": true,
+    "has_deliverables": true,
+    "has_limitations": false,
+    "no_misleading_claims": true,
+    "notes": "Services clearly described: Digital products, bill payments, top up, fund transfers, QRIS support confirmed."
+  },
+  "parameter_d": {
+    "has_fee_disclosure": false,
+    "has_billing_cycle": false,
+    "has_settlement_info": false,
+    "has_refund_policy": false,
+    "has_dispute_process": false,
+    "has_sla": false,
+    "pricing_clear": false,
+    "notes": "No fee/MDR structure visible. Cannot access website due to SSL issue."
+  },
+  "parameter_e": {
+    "has_terms_page": true,
+    "has_cancellation_policy": false,
+    "has_refund_policy": false,
+    "has_dispute_clause": false,
+    "has_jurisdiction_clause": false,
+    "has_fee_schedule": false,
+    "tc_accessible": false,
+    "tc_current": false,
+    "notes": "Privacy policy link exists but website inaccessible due to SSL certificate issue."
+  },
+  "parameter_f": {
+    "has_email_support": true,
+    "has_phone_support": true,
+    "has_chat_support": false,
+    "has_faq": false,
+    "has_escalation_path": false,
+    "has_sla": false,
+    "response_time_hours": null,
+    "notes": "CS phone: 021-38929036, CS email: cs@singapay.id. Active response to Play Store reviews."
+  },
+  "parameter_g": {
+    "has_privacy_policy": true,
+    "privacy_policy_url": "https://singapay.id/privacy-policy",
+    "has_data_retention_policy": false,
+    "has_user_rights_section": false,
+    "has_dpo_contact": false,
+    "pdp_compliant": false,
+    "policy_date": null,
+    "notes": "Privacy policy mentioned, data safety section on Google Play. Cannot access full policy (SSL issue)."
+  },
+  "parameter_h": {
+    "has_https": true,
+    "website_stable": false,
+    "has_secure_login": true,
+    "ssl_valid": false,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": "App available on official Google Play Store. Data encryption in transit (claimed). Website SSL issue."
+  },
+  "parameter_i": {
+    "has_social_media": false,
+    "has_linkedin": false,
+    "has_google_maps": false,
+    "has_press_coverage": false,
+    "app_store_rating": 4.9,
+    "review_count": 75,
+    "negative_news": [],
+    "positive_news": ["Positive reviews mentioning QRIS usage"],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": "Google Play: 4.9/5 (75 reviews), 500+ downloads. All visible reviews are positive. Developer actively responds to reviews."
+  },
+  "general_notes": "Expected: REJECT (PJP without verified BI license) or PENDING",
+  "researcher": "QA Test",
+  "research_date": "2025-02-15T12:00:00"
+}

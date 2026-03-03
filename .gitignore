@@ -1,0 +1,18 @@
+# Virtual environments
+.venv/
+.venv-py39-backup/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Temporary files
+tmp/

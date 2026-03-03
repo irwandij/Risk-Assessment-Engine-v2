@@ -1,0 +1,113 @@
+[
+  {
+    "case": "sample_merchant",
+    "cmd": "risk_assessment_engine sample --type merchant -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_merchant.json",
+    "rc": 0,
+    "stdout": [
+      "Done!"
+    ],
+    "stderr": [],
+    "output_exists": true
+  },
+  {
+    "case": "sample_partner",
+    "cmd": "risk_assessment_engine sample --type partner -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_partner.json",
+    "rc": 0,
+    "stdout": [
+      "Done!"
+    ],
+    "stderr": [],
+    "output_exists": true
+  },
+  {
+    "case": "sample_vendor",
+    "cmd": "risk_assessment_engine sample --type vendor -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_vendor.json",
+    "rc": 0,
+    "stdout": [
+      "Done!"
+    ],
+    "stderr": [],
+    "output_exists": true
+  },
+  {
+    "case": "sample_ai",
+    "cmd": "risk_assessment_engine sample --type ai -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_ai.json",
+    "rc": 0,
+    "stdout": [
+      "Done!"
+    ],
+    "stderr": [],
+    "output_exists": true
+  },
+  {
+    "case": "assess:sample_merchant.json",
+    "cmd": "risk_assessment_engine assess /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_merchant.json -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/results/sample_merchant_result.json -r /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/reports/sample_merchant_report.md",
+    "rc": 0,
+    "sec": 0.092,
+    "score": 25,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "output_exists": true,
+    "stderr_tail": []
+  },
+  {
+    "case": "assess-partner:sample_partner.json",
+    "cmd": "risk_assessment_engine assess-partner /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_partner.json -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/results/sample_partner_result.json -r /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/reports/sample_partner_report.md",
+    "rc": 1,
+    "sec": 0.093,
+    "score": "",
+    "decision": "",
+    "risk": "",
+    "output_exists": false,
+    "stderr_tail": [
+      "  Input should be 'regular_merchant' or 'pjp_aggregator' [type=enum, input_value=<AssessmentType.PARTNER: 'partner'>, input_type=AssessmentType]",
+      "    For further information visit https://errors.pydantic.dev/2.12/v/enum"
+    ]
+  },
+  {
+    "case": "assess-vendor:sample_vendor.json",
+    "cmd": "risk_assessment_engine assess-vendor /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_vendor.json -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/results/sample_vendor_result.json -r /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/reports/sample_vendor_report.md",
+    "rc": 1,
+    "sec": 0.088,
+    "score": "",
+    "decision": "",
+    "risk": "",
+    "output_exists": false,
+    "stderr_tail": [
+      "  Input should be 'regular_merchant' or 'pjp_aggregator' [type=enum, input_value=<AssessmentType.VENDOR: 'vendor'>, input_type=AssessmentType]",
+      "    For further information visit https://errors.pydantic.dev/2.12/v/enum"
+    ]
+  },
+  {
+    "case": "assess-ai:sample_ai.json",
+    "cmd": "risk_assessment_engine assess-ai /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_ai.json -o /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/results/sample_ai_result.json -r /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/reports/sample_ai_report.md",
+    "rc": 1,
+    "sec": 0.09,
+    "score": "",
+    "decision": "",
+    "risk": "",
+    "output_exists": false,
+    "stderr_tail": [
+      "  Input should be 'PROCEED', 'PROCEED WITH CONDITIONS', 'CONDITIONAL REJECT', 'REJECT', 'APPROVED', 'CONDITIONAL', 'REVIEW', 'DECLINE' or 'CONDITIONS' [type=enum, input_value='LOW', input_type=str]",
+      "    For further information visit https://errors.pydantic.dev/2.12/v/enum"
+    ]
+  },
+  {
+    "case": "negative_1",
+    "cmd": "risk_assessment_engine validate /tmp/does-not-exist.json",
+    "rc": 1,
+    "stderr_tail": [
+      "Error: Data file not found: /tmp/does-not-exist.json"
+    ]
+  },
+  {
+    "case": "negative_2",
+    "cmd": "risk_assessment_engine assess-partner /Users/suryaf/projects/risk_assessment_engine/qa_runs/2026-02-22/samples/sample_merchant.json",
+    "rc": 1,
+    "stderr_tail": [
+      "partner_info",
+      "  Field required [type=missing, input_value={'merchant_info': {'name'...: '2026-02-21T12:00:00'}, input_type=dict]",
+      "    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    ]
+  }
+]

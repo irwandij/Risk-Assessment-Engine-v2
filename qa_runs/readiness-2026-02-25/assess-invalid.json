@@ -1,0 +1,1 @@
+{"error":"validation_error","message":"Input validation failed","details":[{"path":"merchant_info.name","message":"Field required","type":"missing"},{"path":"merchant_info.business_type","message":"Field required","type":"missing"}]}

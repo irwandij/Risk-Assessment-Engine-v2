@@ -1,0 +1,110 @@
+{
+  "merchant_info": {
+    "name": "PT Tiga Pilar Media",
+    "website": "https://tigapilarmedia.com/",
+    "business_type": "Out-of-Home (OOH) Advertising - Billboards, Building Ads, Vehicle Ads, Airport Ads",
+    "legal_entity_name": "PT Tiga Pilar Media",
+    "registration_number": null,
+    "address": "Kinanti Building, 2nd floor, Jln. Epicentrum Tengah No. 3, Karet Kuningan, Setia Budi, Jakarta Selatan 12940",
+    "processes_payments_for_others": false,
+    "claimed_bi_license": null,
+    "bi_license_number": null,
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "has_address": true,
+    "address_verified": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_contact_form": true,
+    "info_consistent": true,
+    "linkedin_verified": true,
+    "google_maps_verified": false,
+    "notes": "PT name stated, address & contact provided. Website appears dated (copyright 2019)"
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": false,
+    "bi_license_verified": false,
+    "bi_license_number": null,
+    "license_scope_matches": null,
+    "ojk_registered": false,
+    "pse_registered": false,
+    "notes": "OOH advertising is not a BI/OJK regulated activity. No regulatory gate override applicable."
+  },
+  "parameter_c": {
+    "services_clearly_described": true,
+    "has_scope_documentation": true,
+    "has_deliverables": true,
+    "has_limitations": false,
+    "no_misleading_claims": true,
+    "notes": "Clear service offerings: Billboard, Building, Public Area, Vehicle, Airport advertising. Business model (B2B advertising) well explained."
+  },
+  "parameter_d": {
+    "has_fee_disclosure": false,
+    "has_billing_cycle": false,
+    "has_settlement_info": false,
+    "has_refund_policy": false,
+    "has_dispute_process": false,
+    "has_sla": false,
+    "pricing_clear": false,
+    "notes": "No pricing/fees displayed, no billing structure, no refund policy, no dispute resolution process, no SLA"
+  },
+  "parameter_e": {
+    "has_terms_page": true,
+    "has_cancellation_policy": false,
+    "has_refund_policy": false,
+    "has_dispute_clause": false,
+    "has_jurisdiction_clause": false,
+    "has_fee_schedule": false,
+    "tc_accessible": true,
+    "tc_current": false,
+    "notes": "Generic boilerplate T&C (mentions 'prevailing law of Netherlands' - odd for Indonesian company). Missing: specific fees, cancellation terms, refund policy, dispute resolution."
+  },
+  "parameter_f": {
+    "has_email_support": true,
+    "has_phone_support": true,
+    "has_chat_support": false,
+    "has_faq": false,
+    "has_escalation_path": false,
+    "has_sla": false,
+    "response_time_hours": null,
+    "notes": "Contact form available, phone and email provided. No documented escalation path, no SLA."
+  },
+  "parameter_g": {
+    "has_privacy_policy": true,
+    "privacy_policy_url": "https://tigapilarmedia.com/privacy-policy/",
+    "has_data_retention_policy": false,
+    "has_user_rights_section": false,
+    "has_dpo_contact": false,
+    "pdp_compliant": false,
+    "policy_date": "2019-11-09",
+    "notes": "Last updated November 9, 2019 (outdated). Does not comply with UU PDP 27/2022. Missing: data subject rights, retention periods, lawful basis, DPO contact."
+  },
+  "parameter_h": {
+    "has_https": true,
+    "website_stable": true,
+    "has_secure_login": false,
+    "ssl_valid": true,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": "HTTPS enabled. No visible customer portal/login. Website appears dated."
+  },
+  "parameter_i": {
+    "has_social_media": true,
+    "has_linkedin": true,
+    "has_google_maps": false,
+    "has_press_coverage": false,
+    "app_store_rating": null,
+    "review_count": null,
+    "negative_news": [],
+    "positive_news": [],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": "Social media presence (LinkedIn, Facebook, Instagram). Portfolio page shows past projects. Limited independent reviews (B2B advertising)."
+  },
+  "general_notes": "Expected score based on v2.1: 73/100, PROCEED WITH CONDITIONS",
+  "researcher": "QA Test",
+  "research_date": "2025-02-15T12:00:00"
+}

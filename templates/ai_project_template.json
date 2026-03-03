@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_name": "Sample AI Project",
+    "project_owner": "John Doe",
+    "department": "Data Science",
+    "project_description": "AI-powered customer service chatbot",
+    "ai_type": "GenAI / LLM",
+    "is_external_facing": true,
+    "processes_personal_data": true
+  },
+  "section_a": {
+    "processes_personal_data": true,
+    "a1_explanation": "Processes customer name, email, and transaction history for context",
+    "pdpwg_approved": true,
+    "a2_explanation": "PDPWG approval obtained on 2026-01-15",
+    "notes": ""
+  },
+  "section_b": {
+    "is_external_facing": true,
+    "b1_explanation": "Chatbot is available on public website and mobile app",
+    "it_security_reviewed": true,
+    "b2_explanation": "Security review completed, pentest scheduled for Q2 2026",
+    "notes": ""
+  },
+  "section_c": {
+    "has_clear_problem": true,
+    "c1_explanation": "Reduce customer service response time and handle 24/7 inquiries",
+    "has_measurable_benefit": true,
+    "c2_explanation": "Expected 60% reduction in response time, 40% cost savings",
+    "kpi_kri_defined": true,
+    "value_exceeds_cost_risk": true,
+    "notes": ""
+  },
+  "section_d": {
+    "has_ai_owner": true,
+    "d1_explanation": "AI system owner is the Head of Customer Service",
+    "ai_owner_name": "Jane Smith",
+    "has_human_oversight": true,
+    "d2_explanation": "Human agents can take over conversation at any time",
+    "override_mechanism": "Escalation to human agent button always visible",
+    "notes": ""
+  },
+  "section_e": {
+    "has_testing": true,
+    "e1_explanation": "Tested with 1000+ test cases including edge cases",
+    "test_coverage": "Normal cases, edge cases, adversarial inputs",
+    "has_fallback": true,
+    "e2_explanation": "Falls back to search-based FAQ if LLM unavailable",
+    "fallback_description": "Rule-based fallback with human escalation",
+    "has_monitoring_plan": true,
+    "e3_explanation": "Daily monitoring of response quality and user satisfaction",
+    "monitoring_metrics": "Response time, user rating, escalation rate, accuracy",
+    "notes": ""
+  },
+  "section_f": {
+    "has_bias_check": true,
+    "f1_explanation": "Bias testing conducted across demographic groups",
+    "bias_check_method": "A/B testing with diverse user groups",
+    "can_detect_correct_bias": true,
+    "f2_explanation": "Automated bias detection with manual review process",
+    "correction_mechanism": "Weekly bias review with model retraining pipeline",
+    "notes": ""
+  },
+  "section_g": {
+    "has_user_notification": true,
+    "g1_explanation": "Users are informed they are chatting with AI assistant",
+    "notification_method": "Clear disclosure at start of chat session",
+    "has_explainability": true,
+    "g2_explanation": "Can provide reason codes for recommendations",
+    "explanation_method": "Natural language explanations with confidence scores",
+    "notes": ""
+  },
+  "general_notes": "Sample AI project data for testing purposes. This represents a well-governed AI project that passes all hard stops and scores high on governance dimensions.",
+  "assessor": "Risk Assessment Engine",
+  "assessment_date": "2026-02-21T12:00:00"
+}

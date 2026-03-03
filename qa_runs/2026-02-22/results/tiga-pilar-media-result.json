@@ -1,0 +1,244 @@
+{
+  "merchant_name": "PT Tiga Pilar Media",
+  "merchant_type": "regular_merchant",
+  "classification": {
+    "merchant_type": "regular_merchant",
+    "merchant_type_display": "Regular Merchant",
+    "business_model": "Out-of-Home (OOH) Advertising - Billboards, Building Ads, Vehicle Ads, Airport Ads",
+    "payment_processing": "Own products/services",
+    "regulatory_requirement": "N/A",
+    "is_subscription_model": true
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Company Identity & Web Verification",
+      "score": 0,
+      "max_score": 15,
+      "rating": "fail",
+      "evidence": [
+        "Legal entity type: PT",
+        "Business address available",
+        "Address verified (Google Maps/other)",
+        "Contact methods: phone, email, contact form",
+        "LinkedIn profile verified",
+        "Information consistent across sources"
+      ],
+      "gaps": [],
+      "notes": "PT name stated, address & contact provided. Website appears dated (copyright 2019)"
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Regulatory & Licensing",
+      "score": 25,
+      "max_score": 25,
+      "rating": "excellent",
+      "evidence": [
+        "Regular Merchant - No BI/OJK license required",
+        "Business model: receives payments for own products/services"
+      ],
+      "gaps": [
+        "PSE registration not verified (recommended but not required)"
+      ],
+      "notes": "AUTO-PASS: Regular Merchant does not require financial services license"
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Product/Service Clarity",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "Services/products clearly described",
+        "Scope of services documented",
+        "Deliverables clearly defined",
+        "No misleading claims identified"
+      ],
+      "gaps": [],
+      "notes": "Clear service offerings: Billboard, Building, Public Area, Vehicle, Airport advertising. Business model (B2B advertising) well explained."
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Payment Transparency",
+      "score": 0,
+      "max_score": 15,
+      "rating": "fail",
+      "evidence": [],
+      "gaps": [
+        "Minimal payment transparency - no fees or billing info visible",
+        "No fee disclosure found",
+        "Billing cycle not explained",
+        "Settlement information missing",
+        "No refund policy found",
+        "Dispute process not defined"
+      ],
+      "notes": "No pricing/fees displayed, no billing structure, no refund policy, no dispute resolution process, no SLA"
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "T&C Completeness",
+      "score": 0,
+      "max_score": 15,
+      "rating": "fail",
+      "evidence": [
+        "Terms & Conditions page exists",
+        "T&C page accessible"
+      ],
+      "gaps": [
+        "Cancellation policy missing",
+        "Refund policy missing",
+        "Dispute resolution clause missing",
+        "T&C may be outdated"
+      ],
+      "notes": "Generic boilerplate T&C (mentions 'prevailing law of Netherlands' - odd for Indonesian company). Missing: specific fees, cancellation terms, refund policy, dispute resolution."
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "Consumer Protection Readiness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "Email support available",
+        "Phone support available",
+        "Multiple support channels available"
+      ],
+      "gaps": [
+        "No escalation path defined",
+        "No support SLA defined"
+      ],
+      "notes": "Contact form available, phone and email provided. No documented escalation path, no SLA."
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "Privacy & PDP Readiness",
+      "score": 0,
+      "max_score": 10,
+      "rating": "fail",
+      "evidence": [
+        "Privacy policy exists",
+        "Privacy policy URL: https://tigapilarmedia.com/privacy-policy/",
+        "Privacy policy last updated: 2019-11-09"
+      ],
+      "gaps": [
+        "Data retention policy missing",
+        "User rights section missing (PDP compliance gap)",
+        "PDP compliance concerns"
+      ],
+      "notes": "Last updated November 9, 2019 (outdated). Does not comply with UU PDP 27/2022. Missing: data subject rights, retention periods, lawful basis, DPO contact."
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Security Indicators",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [
+        "Website uses HTTPS",
+        "SSL certificate valid",
+        "Website stable and functional"
+      ],
+      "gaps": [
+        "No secure login mechanism detected"
+      ],
+      "notes": "HTTPS enabled. No visible customer portal/login. Website appears dated."
+    },
+    "I": {
+      "parameter_id": "I",
+      "parameter_name": "Reputation & Public Footprint",
+      "score": 0,
+      "max_score": 5,
+      "rating": "fail",
+      "evidence": [
+        "Moderate online footprint"
+      ],
+      "gaps": [],
+      "notes": "Social media presence (LinkedIn, Facebook, Instagram). Portfolio page shows past projects. Limited independent reviews (B2B advertising)."
+    }
+  },
+  "total_score": 25,
+  "decision_result": {
+    "decision": "REJECT",
+    "risk_level": "VERY HIGH",
+    "total_score": 25,
+    "is_auto_rejected": true,
+    "auto_reject_triggers": [
+      {
+        "code": "SCORE_TOO_LOW",
+        "reason": "Total score below 40",
+        "details": "Total score 25/100 is below minimum threshold"
+      }
+    ],
+    "conditions": [],
+    "gate_override": true,
+    "gate_override_reason": "SCORE_TOO_LOW"
+  },
+  "strengths": [
+    "Regulatory & Licensing: 25/25"
+  ],
+  "concerns": [
+    "Minimal payment transparency - no fees or billing info visible",
+    "No fee disclosure found",
+    "Cancellation policy missing",
+    "Refund policy missing",
+    "No escalation path defined",
+    "No support SLA defined",
+    "Data retention policy missing",
+    "User rights section missing (PDP compliance gap)",
+    "No secure login mechanism detected"
+  ],
+  "recommendations": [
+    {
+      "recommendation": "[Payment Transparency] Minimal payment transparency - no fees or billing info visible",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Payment Transparency] No fee disclosure found",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[T&C Completeness] Cancellation policy missing",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[T&C Completeness] Refund policy missing",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Consumer Protection Readiness] No escalation path defined",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Consumer Protection Readiness] No support SLA defined",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Privacy & PDP Readiness] Data retention policy missing",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Privacy & PDP Readiness] User rights section missing (PDP compliance gap)",
+      "priority": "high",
+      "category": "risk_mitigation"
+    },
+    {
+      "recommendation": "[Security Indicators] No secure login mechanism detected",
+      "priority": "high",
+      "category": "risk_mitigation"
+    }
+  ],
+  "regulatory_gate": null,
+  "reference_urls": {
+    "website": "https://tigapilarmedia.com/",
+    "privacy_policy": "https://tigapilarmedia.com/privacy-policy/"
+  },
+  "assessment_date": "2026-02-22 05:59:49.796069",
+  "framework_version": "2.1"
+}

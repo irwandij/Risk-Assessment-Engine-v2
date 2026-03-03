@@ -1,0 +1,7 @@
+/Users/suryaf/projects/risk_assessment_engine/tests/tiga-pilar-media-research.json
+/Users/suryaf/projects/risk_assessment_engine/tests/danarapay-research.json
+/Users/suryaf/projects/risk_assessment_engine/tests/singapay-research.json
+/Users/suryaf/projects/risk_assessment_engine/tests/hss-sumber-remitan-research.json
+/Users/suryaf/projects/risk_assessment_engine/tests/saku-rupiah-research.json
+/Users/suryaf/projects/risk_assessment_engine/tests/koinworks-research.json
+/Users/suryaf/projects/risk_assessment_engine/tests/andapay-research.json

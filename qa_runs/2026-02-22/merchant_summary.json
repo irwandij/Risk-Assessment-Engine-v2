@@ -1,0 +1,121 @@
+[
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/tiga-pilar-media-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.103,
+    "assess_rc": 0,
+    "assess_sec": 0.095,
+    "score": 25,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: False"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/danarapay-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.094,
+    "assess_rc": 0,
+    "assess_sec": 0.095,
+    "score": 0,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: True"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/singapay-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.093,
+    "assess_rc": 0,
+    "assess_sec": 0.093,
+    "score": 0,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: True"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/hss-sumber-remitan-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.093,
+    "assess_rc": 0,
+    "assess_sec": 0.093,
+    "score": 0,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: True"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/saku-rupiah-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.094,
+    "assess_rc": 0,
+    "assess_sec": 0.093,
+    "score": 0,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: True"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/koinworks-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.093,
+    "assess_rc": 0,
+    "assess_sec": 0.095,
+    "score": 25,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: False"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  },
+  {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/andapay-research.json",
+    "validate_rc": 0,
+    "validate_sec": 0.094,
+    "assess_rc": 0,
+    "assess_sec": 0.093,
+    "score": 0,
+    "decision": "REJECT",
+    "risk": "VERY HIGH",
+    "validate_tail": [
+      "  Is PJP/Aggregator: False"
+    ],
+    "assess_tail": [
+      "",
+      "Done!"
+    ]
+  }
+]

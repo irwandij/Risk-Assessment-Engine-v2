@@ -1,0 +1,110 @@
+{
+  "merchant_info": {
+    "name": "Koinworks",
+    "website": "https://koinworks.com/",
+    "business_type": "P2P Lending Platform - Super App for Funding",
+    "legal_entity_name": "PT Lunaria Annua Teknologi",
+    "registration_number": "S-1862/NB.111/2017",
+    "address": "Indonesia",
+    "processes_payments_for_others": false,
+    "claimed_bi_license": false,
+    "bi_license_number": null,
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "has_address": true,
+    "address_verified": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_contact_form": true,
+    "info_consistent": true,
+    "linkedin_verified": true,
+    "google_maps_verified": true,
+    "notes": "Legal entity PT Lunaria Annua Teknologi. OJK licensed P2P lending platform. Well-established fintech."
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": false,
+    "bi_license_verified": false,
+    "bi_license_number": null,
+    "license_scope_matches": true,
+    "ojk_registered": true,
+    "pse_registered": true,
+    "notes": "OJK Licensed P2P Lending: S-1862/NB.111/2017. NOT a PJP - receives payments for own lending products. OJK regulated, not BI."
+  },
+  "parameter_c": {
+    "services_clearly_described": true,
+    "has_scope_documentation": true,
+    "has_deliverables": true,
+    "has_limitations": true,
+    "no_misleading_claims": true,
+    "notes": "Clear P2P lending services: Pinjaman Bisnis, Pinjaman PNS, Invoice Financing. Super App for Funding."
+  },
+  "parameter_d": {
+    "has_fee_disclosure": true,
+    "has_billing_cycle": true,
+    "has_settlement_info": true,
+    "has_refund_policy": true,
+    "has_dispute_process": true,
+    "has_sla": true,
+    "pricing_clear": true,
+    "notes": "Transparent pricing for lending products. Clear fee structure on platform."
+  },
+  "parameter_e": {
+    "has_terms_page": true,
+    "has_cancellation_policy": true,
+    "has_refund_policy": true,
+    "has_dispute_clause": true,
+    "has_jurisdiction_clause": true,
+    "has_fee_schedule": true,
+    "tc_accessible": true,
+    "tc_current": true,
+    "notes": "Complete T&C documentation. OJK compliant lending platform."
+  },
+  "parameter_f": {
+    "has_email_support": true,
+    "has_phone_support": true,
+    "has_chat_support": true,
+    "has_faq": true,
+    "has_escalation_path": true,
+    "has_sla": true,
+    "response_time_hours": 24,
+    "notes": "Multiple support channels. In-app chat, email, phone. Active customer service."
+  },
+  "parameter_g": {
+    "has_privacy_policy": true,
+    "privacy_policy_url": "https://koinworks.com/privacy-policy",
+    "has_data_retention_policy": true,
+    "has_user_rights_section": true,
+    "has_dpo_contact": true,
+    "pdp_compliant": true,
+    "policy_date": "2024",
+    "notes": "PDP compliant. OJK regulated lending platform with data protection requirements."
+  },
+  "parameter_h": {
+    "has_https": true,
+    "website_stable": true,
+    "has_secure_login": true,
+    "ssl_valid": true,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": "Secure platform. Bank-level security. OJK compliance requires security standards."
+  },
+  "parameter_i": {
+    "has_social_media": true,
+    "has_linkedin": true,
+    "has_google_maps": true,
+    "has_press_coverage": true,
+    "app_store_rating": 4.5,
+    "review_count": 10000,
+    "negative_news": [],
+    "positive_news": ["Top Indonesian Fintech", "OJK Licensed", "Well-funded startup"],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": "Established fintech. 10K+ reviews on Play Store. Multiple funding rounds. Strong reputation."
+  },
+  "general_notes": "Koinworks is an OJK-licensed P2P lending platform (NOT a PJP/Aggregator). Classified as Regular Merchant since they receive payments for their own lending products.",
+  "researcher": "Manual Research",
+  "research_date": "2026-02-18T12:00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "first_case": {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/saku-rupiah-research.json",
+    "decision": "Decision.REJECT",
+    "triggers": [
+      "NO_BI_LICENSE"
+    ]
+  },
+  "second_case_same_assessor": {
+    "input": "/Users/suryaf/projects/risk_assessment_engine/tests/koinworks-research.json",
+    "decision": "Decision.PROCEED",
+    "triggers": []
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "partner_info": {
+    "name": "PT Ajaib Futures Asia",
+    "website": "https://www.ajaibfuturesasia.co.id/",
+    "partnership_type": "host-to-host integration",
+    "legal_entity_name": "PT Ajaib Futures Asia",
+    "registration_number": "NIB 1288000701645",
+    "country_of_incorporation": "Indonesia",
+    "address": "Soho @Podomoro City, Lt. 23 Unit 21, Jl. Letjen S. Parman Kav. 28, Tanjung Duren Selatan, Grogol Petamburan, Jakarta Barat, DKI Jakarta",
+    "industry_sector": "Perdagangan Berjangka Komoditi (Pialang Berjangka)",
+    "years_in_business": null
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "registration_verified": true,
+    "has_address": true,
+    "ownership_structure_clear": true,
+    "beneficial_owners_identified": true,
+    "politically_exposed": false,
+    "subsidiaries_listed": false,
+    "notes": "Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.1 (Business Partner Name; NIB; business license). Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.4 (Entity & Ownership; privately owned; principal owner name provided). Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.4 (PEP question marked 'No'). Evidence (web): Bappebti list of Pialang Berjangka includes 'AJAIB FUTURES ASIA' with license number 002/BAPPEBTI/SI/09/2024 and address/phone (https://bappebti.go.id/pialang_berjangka/list_pialang, captured 2026-02-26 09:04:59 UTC; snapshot tmp/web-snapshots/20260226T090152Z/bappebti_list_pialang.json)."
+  },
+  "parameter_b": {
+    "financial_statements_available": false,
+    "audited_financials": false,
+    "revenue_trend_positive": false,
+    "profitability_trend_positive": false,
+    "debt_to_equity_healthy": false,
+    "current_ratio_healthy": false,
+    "has_credit_rating": false,
+    "credit_rating_value": null,
+    "insurance_coverage_adequate": false,
+    "notes": "Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.2 (Financial ratios and audited financial statements marked 'No' / not provided; disclosure stated as subject to approval). Not evidenced: credit rating, audited financials, liquidity/leverage ratios, insurance coverage."
+  },
+  "parameter_c": {
+    "business_model_aligned": false,
+    "shared_objectives": false,
+    "complementary_capabilities": false,
+    "market_position_aligned": false,
+    "cultural_fit": false,
+    "long_term_commitment": false,
+    "partnership_value_proposition": false,
+    "notes": "Context (email): requested Risk Management review for a new initiative to integrate host-to-host with PT Ajaib Futures Asia for US Stocks products (source: Inputs/Re_ [Request Review] Due Diligence Form by Ajaib (Offshore Stock).eml, dated 2026-02-20). Not evidenced: documented business case/value proposition, shared objectives, or strategic fit assessment materials."
+  },
+  "parameter_d": {
+    "has_track_record": true,
+    "years_of_experience": 4,
+    "has_expertise": true,
+    "management_team_qualified": false,
+    "has_adequate_resources": true,
+    "operational_processes_documented": true,
+    "quality_certifications": false,
+    "project_management_capability": false,
+    "innovation_capability": false,
+    "notes": "Evidence (docs): [DANA] Struktur Organisasi PT Ajaib Futures Asia.pdf (organization structure includes operational, compliance, risk management, internal audit, IT, finance functions). Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.2-3 (risk management function/policy; BCM policy; DR plan/center; fraud management function marked 'Yes'). Evidence (web): Bappebti lists AJAIB FUTURES ASIA as a licensed Pialang Berjangka (https://bappebti.go.id/pialang_berjangka/list_pialang, captured 2026-02-26 09:04:59 UTC). Inference: years_of_experience=4 based on establishment date in due diligence form (July 2021) through Feb 2026; treat as approximate. Not evidenced: ISO/quality certifications; documented project management methodology; innovation capability evidence."
+  },
+  "parameter_e": {
+    "has_required_licenses": true,
+    "licenses_verified": true,
+    "license_expiry_date": null,
+    "no_regulatory_issues": true,
+    "compliance_program_exists": true,
+    "aml_kyc_compliant": true,
+    "sanctions_screened": false,
+    "no_legal_issues": true,
+    "regulatory_stand": "Listed by Bappebti as a licensed Pialang Berjangka (license 002/BAPPEBTI/SI/09/2024) as of 2026-02-26.",
+    "notes": "Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.1 (Izin usaha pialang berjangka: 002/BAPPEBTI/SI/09/2024). Evidence (web): Bappebti list_pialang includes 'AJAIB FUTURES ASIA' with SIUP 002/BAPPEBTI/SI/09/2024 (https://bappebti.go.id/pialang_berjangka/list_pialang, captured 2026-02-26 09:04:59 UTC; snapshot tmp/web-snapshots/20260226T090152Z/bappebti_list_pialang.json). Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.1 (no pending legal actions; no conflict of interest; no non-compliance indicated). Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.8 (enforcement/investigation questions marked 'No'). Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.5-8 (AML & CTF programme components marked 'Yes', including CDD/EDD, PEP screening, adverse information screening, SAR reporting, training). Evidence (web negative check): not found on Bappebti revoked-license list at capture time (https://bappebti.go.id/pialang_berjangka_cabut/list_pialang; snapshot tmp/web-snapshots/20260226T090152Z/bappebti_list_pialang_cabut.json). Not evidenced: independent sanctions screening of the partner by DANA (field sanctions_screened remains false)."
+  },
+  "parameter_f": {
+    "has_market_reputation": false,
+    "references_available": false,
+    "reference_check_positive": false,
+    "has_industry_recognition": false,
+    "media_coverage_positive": false,
+    "no_negative_news": false,
+    "no_past_issues": false,
+    "esg_rating_positive": false,
+    "notes": "Not evidenced in provided docs: references, awards, independent reputation checks, adverse media screening results. Open item: perform documented adverse media + complaints review specific to PT Ajaib Futures Asia (and confirm relationship to other 'Ajaib' group entities before attributing reputational events)."
+  },
+  "parameter_g": {
+    "has_data_protection_policy": false,
+    "has_security_certifications": false,
+    "data_handling_documented": false,
+    "encryption_standards": false,
+    "access_controls": false,
+    "incident_response_plan": false,
+    "regular_security_audits": false,
+    "no_data_breaches": false,
+    "notes": "Evidence (docs): [Confidential] DANA Business Partner Due Diligence Checklist.pdf p.2-3 supports BCM/DR and fraud-management existence, but does not provide verifiable information security controls (ISO 27001/SOC 2, security testing cadence, encryption/access controls, breach history). Treat as gaps pending security due diligence artifacts."
+  },
+  "parameter_h": {
+    "contract_draft_available": false,
+    "terms_clear": false,
+    "liability_clauses_defined": false,
+    "exit_clauses_defined": false,
+    "ip_rights_clear": false,
+    "governance_structure_defined": false,
+    "escalation_process_defined": false,
+    "notes": "Not evidenced in provided materials: contract draft, liability/indemnity/exit clauses, governance and escalation arrangements for the proposed host-to-host integration."
+  },
+  "general_notes": "Partner assessment is based on one email thread and attached due diligence materials for PT Ajaib Futures Asia related to a proposed host-to-host integration for US Stocks products. Internal DANA identities from the email are intentionally redacted in outputs. Key limitations: financial ratios and audited financial statements were not provided (self-reported as confidential), and only partial SOP evidence is available (email indicates risk management SOP contents only). Unknown/unverifiable items are treated as gaps by design.",
+  "assessor": "risk_assessment_engine (manual ingestion; 2026-02-26 run)",
+  "assessment_date": "2026-02-20T08:16:18Z"
+}
+

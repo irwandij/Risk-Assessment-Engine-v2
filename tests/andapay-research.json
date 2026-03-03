@@ -1,0 +1,119 @@
+{
+  "merchant_info": {
+    "name": "Andapay",
+    "website": "https://andapay.framer.website/",
+    "business_type": "Money Transfer / Remittance Services",
+    "legal_entity_name": "PT Andalusia Antar Benua",
+    "registration_number": null,
+    "address": null,
+    "processes_payments_for_others": false,
+    "claimed_bi_license": true,
+    "bi_license_number": "13/83/DASP/33",
+    "subscription_model": true
+  },
+  "parameter_a": {
+    "has_legal_entity": true,
+    "legal_entity_type": "PT",
+    "has_address": false,
+    "address_verified": false,
+    "has_phone": true,
+    "has_email": true,
+    "has_contact_form": false,
+    "info_consistent": true,
+    "linkedin_verified": false,
+    "google_maps_verified": false,
+    "notes": "Legal entity: PT Andalusia Antar Benua. Contact: info@andapay.id, +62 816 882298. Website built on Framer. No physical address displayed."
+  },
+  "parameter_b": {
+    "is_pjp_or_aggregator": false,
+    "bi_license_verified": false,
+    "bi_license_number": "13/83/DASP/33",
+    "license_scope_matches": null,
+    "ojk_registered": false,
+    "pse_registered": false,
+    "notes": "Claims BI PJP3 license since June 6, 2011 with number 13/83/DASP/33 for money transfer services (Penyelenggara Pengiriman Uang). License NOT YET VERIFIED in BI registry. Services: Local Transfer (BI Fast, Interbank, E-wallet), International Transfer (remittance), Business solutions (disbursement).",
+    "bi_registry_checked": true,
+    "bi_registry_found": false,
+    "bi_registry_category": null,
+    "bi_registry_license_number": null,
+    "bi_registry_decision_number": null,
+    "bi_registry_date": null,
+    "bi_registry_status": null,
+    "bi_registry_url": null,
+    "bi_verification_notes": "BI Registry checked on 2026-02-18. License format 13/83/DASP/33 is OLD format from pre-2016 era (before PBI 18/40/PBI/2016). Current BI registry shows new format licenses (e.g., 28/2/KEP.GBI/Btm/2026). Old-format licenses should have been converted to new PJP categories after 2016. License NOT FOUND in current BI registry search. POSSIBLE SCENARIOS: (1) License revoked/expired, (2) Converted but under different company name, (3) License not renewed. MANUAL VERIFICATION REQUIRED: Check 'Izin Dicabut' status filter or contact BI directly."
+  },
+  "parameter_c": {
+    "services_clearly_described": true,
+    "has_scope_documentation": true,
+    "has_deliverables": true,
+    "has_limitations": false,
+    "no_misleading_claims": true,
+    "notes": "Services clearly described: Local Transfer (Interbank, BI Fast, E-wallet), International Transfer, Business disbursement solutions. Dashboard and API integration available."
+  },
+  "parameter_d": {
+    "has_fee_disclosure": false,
+    "has_billing_cycle": false,
+    "has_settlement_info": false,
+    "has_refund_policy": true,
+    "has_dispute_process": false,
+    "has_sla": false,
+    "pricing_clear": false,
+    "notes": "Claims 'pay per successful transaction, no hidden fees' and 'money back guarantee if transaction fails'. No specific fee amounts disclosed. No pricing page."
+  },
+  "parameter_e": {
+    "has_terms_page": false,
+    "has_cancellation_policy": false,
+    "has_refund_policy": false,
+    "has_dispute_clause": false,
+    "has_jurisdiction_clause": false,
+    "has_fee_schedule": false,
+    "tc_accessible": false,
+    "tc_current": false,
+    "notes": "No T&C page found. No privacy policy visible. Website is a simple landing page built on Framer."
+  },
+  "parameter_f": {
+    "has_email_support": true,
+    "has_phone_support": true,
+    "has_chat_support": false,
+    "has_faq": false,
+    "has_escalation_path": false,
+    "has_sla": false,
+    "response_time_hours": null,
+    "notes": "Email: info@andapay.id. Phone: +62 816 882298. Claims 24/7 customer support. No FAQ, no chat support."
+  },
+  "parameter_g": {
+    "has_privacy_policy": false,
+    "privacy_policy_url": null,
+    "has_data_retention_policy": false,
+    "has_user_rights_section": false,
+    "has_dpo_contact": false,
+    "pdp_compliant": false,
+    "policy_date": null,
+    "notes": "No privacy policy found. PDP compliance not verifiable."
+  },
+  "parameter_h": {
+    "has_https": true,
+    "website_stable": true,
+    "has_secure_login": false,
+    "ssl_valid": true,
+    "phishing_indicators": false,
+    "malware_detected": false,
+    "notes": "Website built on Framer (framer.website). HTTPS enabled. No customer portal/login on landing page."
+  },
+  "parameter_i": {
+    "has_social_media": false,
+    "has_linkedin": false,
+    "has_google_maps": false,
+    "has_press_coverage": false,
+    "app_store_rating": null,
+    "review_count": null,
+    "negative_news": [],
+    "positive_news": [],
+    "scam_allegations": false,
+    "regulatory_enforcement": false,
+    "notes": "No Play Store/App Store app. Limited online presence. Claims BI license since 2011 (long-established company). No social media links found."
+  },
+  "general_notes": "Andapay is a money transfer/remittance service operated by PT Andalusia Antar Benua. Claims BI PJP3 license since 2011 (13/83/DASP/33). NOT a PJP/Aggregator - they process their own transfer services, not payments for other merchants. CLASSIFIED AS REGULAR MERCHANT with regulated activity (BI license required but claimed). License needs verification in BI registry.",
+  "researcher": "Manual Research",
+  "research_date": "2026-02-18T12:00:00"
+}

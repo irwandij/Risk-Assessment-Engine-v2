@@ -1,0 +1,210 @@
+{
+  "merchant_name": "PT Sample Vendor",
+  "merchant_type": "vendor",
+  "classification": {
+    "assessment_type": "vendor",
+    "assessment_type_display": "Third-party Vendor Assessment",
+    "vendor_type": "cloud service",
+    "service_criticality": "high",
+    "country": "Indonesia"
+  },
+  "parameter_scores": {
+    "A": {
+      "parameter_id": "A",
+      "parameter_name": "Vendor Profile",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Has valid legal entity registration",
+        "Registration verified",
+        "Established business (3+ years)",
+        "Has 100+ enterprise clients",
+        "Serves similar companies/industries",
+        "Has physical office presence",
+        "Experienced management team",
+        "Operating for 7 years",
+        "Employee count: 150"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "B": {
+      "parameter_id": "B",
+      "parameter_name": "Financial Health",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Financial statements available",
+        "Financial health is stable",
+        "Revenue is stable/growing",
+        "Has Professional liability and cyber insurance",
+        "Insurance coverage is adequate",
+        "No signs of financial distress"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "C": {
+      "parameter_id": "C",
+      "parameter_name": "Security & Compliance",
+      "score": 13,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Has ISO 27001 certification",
+        "Certifications are current",
+        "Has SOC 2 Type II certification",
+        "Has CSA STAR",
+        "Conducts regular penetration testing",
+        "Has vulnerability management program",
+        "Security policies are documented"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "D": {
+      "parameter_id": "D",
+      "parameter_name": "Data Protection",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Compliant with PDP Law requirements",
+        "Has privacy policy",
+        "Data Processing Agreement available",
+        "Has data classification scheme",
+        "Encryption at rest implemented",
+        "Encryption in transit implemented",
+        "Has data retention policy",
+        "Can delete data on request",
+        "Cross-border safeguards in place"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "E": {
+      "parameter_id": "E",
+      "parameter_name": "Operational Capability",
+      "score": 13,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Has SLA with 99.9% uptime",
+        "SLA compliance history is good",
+        "Has support team (24/7)",
+        "Support response time: < 4 hours for critical issues",
+        "Has escalation process",
+        "Has dedicated account manager",
+        "Has change management process",
+        "Has incident management process"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "F": {
+      "parameter_id": "F",
+      "parameter_name": "BCP/DRP Readiness",
+      "score": 15,
+      "max_score": 15,
+      "rating": "excellent",
+      "evidence": [
+        "Has Business Continuity Plan",
+        "BCP is documented",
+        "Has Disaster Recovery Plan",
+        "DRP is documented",
+        "RTO: 4 hours",
+        "RPO: 1 hour",
+        "BCP tested (last: 2025-11-15)",
+        "Has backup/recovery site",
+        "Has geographic redundancy"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "G": {
+      "parameter_id": "G",
+      "parameter_name": "IT Infrastructure",
+      "score": 10,
+      "max_score": 10,
+      "rating": "excellent",
+      "evidence": [
+        "Infrastructure is reliable",
+        "Historical uptime: 99.95%",
+        "Has scalability capability",
+        "Has monitoring capability",
+        "Has public status page",
+        "Uses AWS, Google Cloud",
+        "Has capacity planning process"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "H": {
+      "parameter_id": "H",
+      "parameter_name": "Contract & SLA",
+      "score": 5,
+      "max_score": 5,
+      "rating": "excellent",
+      "evidence": [
+        "Contract terms are clear",
+        "Liability caps are defined",
+        "Indemnification clause exists",
+        "Exit/termination clauses defined",
+        "Data return/deletion clause exists",
+        "Audit rights included",
+        "IP ownership is clear"
+      ],
+      "gaps": [],
+      "notes": ""
+    },
+    "I": {
+      "parameter_id": "I",
+      "parameter_name": "References & Reputation",
+      "score": 5,
+      "max_score": 5,
+      "rating": "excellent",
+      "evidence": [
+        "References available (5)",
+        "References verified",
+        "Has positive market reputation",
+        "No significant negative news",
+        "No recent security breaches",
+        "Has industry recognition"
+      ],
+      "gaps": [],
+      "notes": ""
+    }
+  },
+  "total_score": 96,
+  "decision_result": {
+    "decision": "APPROVED",
+    "risk_level": "LOW",
+    "total_score": 96,
+    "is_auto_rejected": false,
+    "auto_reject_triggers": [],
+    "conditions": [],
+    "gate_override": false,
+    "gate_override_reason": ""
+  },
+  "strengths": [
+    "Vendor Profile: 10/10",
+    "Financial Health: 10/10",
+    "Security & Compliance: 13/15",
+    "Data Protection: 15/15",
+    "Operational Capability: 13/15",
+    "BCP/DRP Readiness: 15/15",
+    "IT Infrastructure: 10/10",
+    "Contract & SLA: 5/5",
+    "References & Reputation: 5/5"
+  ],
+  "concerns": [],
+  "recommendations": [],
+  "regulatory_gate": null,
+  "reference_urls": {
+    "website": "https://vendor-example.com"
+  },
+  "assessment_date": "2026-02-22 06:14:07.246852",
+  "framework_version": "2.0"
+}
